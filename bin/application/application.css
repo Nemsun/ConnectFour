@@ -1,0 +1,53 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+* {
+	-fx-discord-blue: #7289DA;
+	-fx-discord-gray: #36393E;
+	-fx-discord-black: #1E2124;
+}
+
+#main {
+	-fx-background-color: -fx-discord-gray;
+}
+
+#menu {
+	-fx-background-color: -fx-discord-blue;
+	-fx-background-insets: 0;
+	-fx-text-fill: -fx-discord-black;
+}
+
+#menu:hover {
+	-fx-background-color: -fx-discord-black;
+	-fx-border-radius: 15px;
+	-fx-text-fill: WHITESMOKE;
+} 
+
+.radio-button {
+	-fx-text-fill: WHITESMOKE;
+}
+
+.radio-button .dot:hover {
+	-fx-background-color: -fx-discord-blue;
+}
+
+.radio-button .radio {
+	-fx-background-color: WHITESMOKE;
+}
+
+.radio-button:selected .radio .dot {
+    -fx-background-color: -fx-discord-blue;
+    -fx-background-insets: 0;
+}
+
+.dialog-pane {
+	-fx-background-color: -fx-discord-gray;
+}
+
+.dialog-pane .text {
+	-fx-fill: WHITESMOKE;
+}
+
+.dialog-pane .button {
+	-fx-fill: WHITESMOKE;
+	-fx-background-color: -fx-discord-blue;
+}
